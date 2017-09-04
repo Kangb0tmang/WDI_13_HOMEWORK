@@ -1,0 +1,160 @@
+h3,
+h4,
+p,
+ul,
+li
+{
+   font-family: lato;
+   list-style: none;
+}
+
+body
+{
+   background: lightgrey;
+   margin: 0 auto;
+}
+
+header
+{
+   background: url(../images/background.jpg) repeat;
+   background-size: 25%;
+   height: 210px;
+   width: auto;
+}
+
+.logo
+{
+   height: auto;
+   width: auto;
+   text-align: center;
+   padding-top: 50px;
+}
+
+article
+{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.inner-wrapper
+{
+   margin-top: 90px;
+   margin-bottom: 90px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.left-column
+{
+   background: white;
+   width: 700px;
+   height: auto;
+   padding: 0 20px;
+   display: inline-block;
+   margin: 0 10px;
+}
+
+.blog-post
+{
+   width: 100%;
+   border-bottom: 1px solid black;
+   margin-bottom: 60px;
+}
+
+h3.post-title
+{
+   font-weight: 900;
+   font-size: 28px;
+}
+
+.post-image
+{
+   width: 100%;
+}
+
+.post-details > p
+{
+   margin: 0.5em 0;
+}
+
+.post-details
+{
+   border-top: 1px dotted black;
+}
+
+.download
+{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 900;
+   color: tomato;
+}
+
+.author > a,
+.comments > a
+{
+   text-decoration: none;
+   font-weight: 900;
+   color: tomato;
+}
+
+a.download:hover,
+.author > a:hover,
+.comments > a:hover,
+ul.archives > li > a:hover,
+ul.blogroll > li > a:hover
+{
+   text-decoration: underline;
+   color: blue;
+}
+
+.right-column
+{
+   background: white;
+   width: 300px;
+   height: auto;
+   padding: 20px 10px;
+   vertical-align: top;
+   display: inline-block;
+   margin: 0 10px;
+}
+
+ul.archives > h4,
+ul.blogroll > h4
+{
+   margin: 5px auto;
+   text-transform: uppercase;
+}
+
+ul.archives > li > a,
+ul.blogroll > li > a
+{
+   text-decoration: none;
+   color: black;
+}
+
+.blog-images
+{
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.link-images
+{
+   margin-top: 10px;
+}
+
+footer
+{
+   height: 100px;
+   width: auto;
+   display: block;
+   text-align: center;
+}
+
+.social-icons > li
+{
+   list-style: none;
+   display: inline-block;
+}
