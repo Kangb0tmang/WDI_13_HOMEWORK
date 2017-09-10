@@ -1,4 +1,5 @@
-h3,
+/*Fonts*/
+h1,
 h4,
 p,
 ul,
@@ -8,15 +9,17 @@ li
    list-style: none;
 }
 
+/*Body/Main Page*/
 body
 {
    background: lightgrey;
    margin: 0 auto;
 }
 
+/*Header*/
 header
 {
-   background: url(../images/background.jpg) repeat;
+   background: url(../images/background.jpg) repeat-x;
    background-size: 25%;
    height: 210px;
    width: auto;
@@ -30,6 +33,7 @@ header
    padding-top: 50px;
 }
 
+/*Article*/
 article
 {
    max-width: 1200px;
@@ -45,6 +49,7 @@ article
    box-sizing: border-box;
 }
 
+/*Left Column*/
 .left-column
 {
    background: white;
@@ -55,6 +60,7 @@ article
    margin: 0 10px;
 }
 
+/*Blog Posts*/
 .blog-post
 {
    width: 100%;
@@ -62,7 +68,7 @@ article
    margin-bottom: 60px;
 }
 
-h3.post-title
+h1.post-title
 {
    font-weight: 900;
    font-size: 28px;
@@ -109,6 +115,7 @@ ul.blogroll > li > a:hover
    color: blue;
 }
 
+/*Right Column*/
 .right-column
 {
    background: white;
@@ -142,9 +149,10 @@ ul.blogroll > li > a
 
 .link-images
 {
-   margin-top: 10px;
+   margin-top: 20px;
 }
 
+/*Footer*/
 footer
 {
    height: 100px;

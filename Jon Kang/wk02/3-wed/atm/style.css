@@ -1,0 +1,47 @@
+.logo
+{
+   height: auto;
+   width: auto;
+   text-align: center;
+}
+
+.choose-account
+{
+   text-align: center;
+}
+
+.savings
+{
+   display: none;
+   background: lime;
+   text-align: center;
+}
+
+.savings.active
+{
+   display: block;
+}
+
+.checking
+{
+   display: none;
+   background: aqua;
+   text-align: center;
+}
+
+.checking.active
+{
+   display: block;
+}
+
+input
+{
+   text-align: center;
+}
+
+span,
+p.savings-balance,
+p.checking-balance
+{
+   display: inline-block;
+}

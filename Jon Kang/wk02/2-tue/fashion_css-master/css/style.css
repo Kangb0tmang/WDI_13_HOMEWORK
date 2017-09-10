@@ -1,0 +1,280 @@
+/*Fonts*/
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+span
+{
+   font-family: 'Oxygen', sans-serif;
+   font-weight: lighter;
+}
+
+body
+{
+   max-width: 1300px;
+   margin: 0 auto;
+   height: auto;
+}
+
+header
+{
+   margin-bottom: 30px;
+}
+
+.page-title
+{
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+header h1
+{
+   color: red;
+   display: inline-block;
+   margin-right: 20px;
+   margin-bottom: 0;
+   font-size: 50px;
+}
+
+header h4
+{
+   color: lightslategrey;
+   display: inline-block;
+   margin-bottom: 0;
+   font-size: 30px;
+}
+
+nav
+{
+   width: 1300px;
+   font-size: 0px;
+}
+
+ul.main-menu
+{
+   width: 100%;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul.main-menu li
+{
+   width: 16.666666%;
+   display: inline-block;
+   background: black;
+   padding: 15px 0px;
+   text-align: center;
+   border-left: 1px solid white;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul.main-menu li a
+{
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+ul.main-menu li a:hover
+{
+   color: mistyrose;
+}
+
+.container
+{
+   width: 100%;
+   height: auto;
+}
+
+main
+{
+   max-width: 870px;
+   height: auto;
+   display: inline-block;
+   margin-right: 26px;
+}
+
+article.post
+{
+   width: 100%;
+   height: auto;
+   border-bottom: 1px solid lightgrey;
+}
+
+article.post:last-child
+{
+   padding-top: 30px;
+}
+
+article.post h2
+{
+   margin: 15px 0;
+   font-size: 28px;
+}
+
+article.post p
+{
+   line-height: 22px;
+}
+
+span.date
+{
+   color: lightgrey;
+   font-size: 30px;
+}
+
+article img
+{
+   width: 100%;
+   height: auto;
+}
+
+.first-letter
+{
+   font-size: 90px;
+   color: lightgrey;
+   float: left;
+   line-height: 60px;
+   padding: 4px 8px 4px 3px;
+}
+
+.continue
+{
+   text-align: right;
+   margin-bottom: 20px;
+}
+
+.continue a
+{
+   color: red;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-weight: bold;
+}
+
+.continue a:hover
+{
+   color: grey;
+}
+
+aside
+{
+   vertical-align: top;
+   max-width: 400px;
+   height: auto;
+   display: inline-block;
+}
+
+.about-us
+{
+   width: 100%;
+   border-bottom: 1px solid lightgrey;
+}
+
+.about-us h3,
+.popular-posts h3
+{
+   color: dimgrey;
+   font-weight: 900;
+   font-size: 20px;
+}
+
+.about-us p
+{
+   color: lightslategrey;
+}
+
+.read-more
+{
+   text-align: right;
+   padding-bottom: 20px;
+}
+
+.read-more a
+{
+   color: red;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: capitalize;
+   text-align: right;
+}
+
+.read-more a:hover
+{
+   color: grey;
+}
+
+.sidebar-image
+{
+   padding: 15px 0;
+}
+
+.sidebar-image img
+{
+   width: 100%;
+}
+
+.popular-posts
+{
+   width: 100%;
+   border-top: 1px solid lightgrey;
+}
+
+ul.popular-posts-list
+{
+   color: dimgrey;
+}
+
+ul.popular-posts-list li a,
+ul.footer-menu li a
+{
+   text-decoration: none;
+   color: indianred;
+}
+
+ul.popular-posts-list li a:hover,
+ul.footer-menu li a:hover
+{
+   color: grey;
+}
+
+footer
+{
+   width: 100%;
+   height: auto;
+   margin-top: 30px;
+}
+
+ul.footer-menu
+{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+ul.footer-menu li
+{
+   display: inline-block;
+   height: auto;
+   border-right: 1px solid lightgrey;
+   padding: 5px;
+}
+
+ul.footer-menu li:last-child
+{
+   border-right: none;
+}
+
+p.copyright
+{
+   color: grey;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>ATM</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- logo -->
+   <div class="logo">
+      <h1>The Bank is ALWAYS Open</h1>
+      <img src="https://i.makeagif.com/media/6-26-2015/mgVTnG.gif" alt="">
+   </div>
+   <!-- end logo -->
+
+   <!-- choose-account -->
+   <div class="choose-account">
+      <h2>Choose your Account</h2>
+      <button class="select-savings">Savings</button>
+      <button class="select-checking">Checking</button>
+   </div>
+   <!-- end choose-account -->
+
+   <!-- savings-account -->
+   <div class="savings">
+      <h2>Savings</h2>
+
+      <!-- user-balance -->
+      <div class="user-balance">
+         <p>Your balance is...</p>
+         <span>$</span>
+         <p class="balance">0.00</p>
+      </div>
+      <!-- user-balance -->
+
+      <input type="text" class="amount" placeholder="Enter your amount here">
+
+      <!-- buttons -->
+      <div class="buttons">
+         <button id="deposit-savings" class="savings-buttons">Deposit</button>
+         <button id="withdraw-savings" class="savings-buttons">Withdraw</button>
+      </div>
+      <!-- end buttons -->
+   </div>
+   <!-- end savings-account -->
+
+   <!-- checking-account -->
+   <div class="checking">
+      <h2>Checking</h2>
+
+      <!-- user-balance -->
+      <div class="user-balance">
+         <p>Your balance is...</p>
+         <span>$</span>
+         <p class="balance">0.00</p>
+      </div>
+      <!-- user-balance -->
+
+      <input type="text" class="amount" placeholder="Enter your amount here">
+
+      <!-- buttons -->
+      <div class="buttons">
+         <button id="deposit-checking" class="checking-buttons">Deposit</button>
+         <button id="withdraw-checking" class="checking-buttons">Withdraw</button>
+      </div>
+      <!-- end buttons -->
+   </div>
+   <!-- end checking-account -->
+
+   <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
