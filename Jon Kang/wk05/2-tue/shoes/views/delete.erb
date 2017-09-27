@@ -1,0 +1,10 @@
+<h1>Are you sure you want to Delete this?</h1>
+<form action="/kicks/<%= @pair['id'] %>" method="post">
+   <input type="hidden" name="_method" value="delete">
+   <input type="text" name="name" value="<%= @pair['name'] %>">
+   <img src="<%= @pair['image_url'] %>" alt="<%= @pair['name'] %>">
+   <textarea name="image_url" rows="6" cols="40"><%= @pair['image_url'] %></textarea>
+   <textarea name="video_link" rows="6" cols="40"><%= @pair['video_link'] %></textarea>
+   <button type="submit">Yes</button>
+   <a href="javascript:history.back()">No</a>
+</form>

@@ -1,0 +1,14 @@
+<h1>All Kicks</h1>
+<a href="/kicks/new"><h4>New Shoes</h4></a>
+
+<% @kicks.each do |pair| %>
+   <article class="shoes">
+      <h2><a href="/kicks/<%= pair['id'] %>"><%= pair['name'] %></a></h2>
+      <div class="">
+         <a href="/kicks/<%= pair['id'] %>/update">Edit</a>
+         <a href="/kicks/<%= pair['id'] %>/delete">Delete</a>
+      </div>
+      <img src="<%= pair['image_url'] %>" alt="<%= pair['name'] %>">
+      <a href="<%= pair['video_link'] %>">Watch Video</a>
+   </article>
+<% end %>
