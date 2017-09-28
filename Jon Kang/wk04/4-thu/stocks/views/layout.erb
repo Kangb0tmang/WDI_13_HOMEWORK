@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Stocks</title>
+      <link rel="stylesheet" href="/style.css">
+   </head>
+
+   <body>
+      <h1>Find a Stock</h1>
+      <form action="/stocks" method="get">
+         <input type="text" name="stocks">
+         <button type="sumbit">Find Stock</button>
+      </form>
+
+      <%= yield %>
+
+   </body>
+</html>
