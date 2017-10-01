@@ -1,0 +1,7 @@
+<h1><%= @search_movie.name %></h1>
+<img src="<%= @search_movie.poster_url %>" alt="<%= @search_movie.name %>">
+<h2>Actors: <%= @search_movie.actors %></h2>
+<h3>Duration: <%= @search_movie.runtime %></h4>
+<h3>Release Date: <%= @search_movie.release_date %></h4>
+<p>Plot: <%= @search_movie.plot %></p>
+<h4>Ratings: <%= "IMDB #{@search_movie.rating}" %></h4>

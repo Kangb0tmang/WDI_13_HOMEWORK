@@ -1,0 +1,7 @@
+<ul>
+<% @search_movies.each do |movie| %>
+   <!-- unicode_normalize(:nfkd).encode('ASCII', replace: '') ensures movie searches like Pokémon doesn't break due to accented latin on 'e' -->
+   <% @movie_title = movie["Title"].unicode_normalize(:nfkd).encode('ASCII', replace: '') %>
+   <li><a href="/about?movie=<%= movie["imdbID"] %>"><%= @movie_title %></a></li>
+<% end %>
+</ul>
