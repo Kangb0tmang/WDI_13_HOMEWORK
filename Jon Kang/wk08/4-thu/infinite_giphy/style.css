@@ -1,0 +1,19 @@
+body
+{
+  background: dodgerblue;
+  text-align: center;
+}
+
+.gifs-container
+{
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+.single-gif
+{
+  height: auto;
+  width: 100%;
+}
