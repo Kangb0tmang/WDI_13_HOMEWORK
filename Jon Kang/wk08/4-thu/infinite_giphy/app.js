@@ -4,9 +4,9 @@ var $gifs_container = $('.gifs-container');
 var $search_gifs = $('#search-gifs');
 var $search_giphy = $('#search-giphy');
 var $search_query = $('#search-query');
-var $limit = 5;
+var $limit = 10;
 var $gif_offset = 0;
-var $gifs_per_page = 5;
+var $gifs_per_page = 10;
 
 $(document).ready(function()
 {
@@ -34,7 +34,7 @@ $(document).ready(function()
       {
         q: $search_gifs.val(),
         api_key: $api_key,
-        limit: 5
+        limit: $limit
       }
     };
     $.ajax(options).done(appendGifs);
