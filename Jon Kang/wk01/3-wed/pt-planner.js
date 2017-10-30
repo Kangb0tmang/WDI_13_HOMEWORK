@@ -48,17 +48,10 @@ var trainNetwork =
 ]
 
 // Plan journey across train network with Origin and Destination
-var journey = function(origin)
-{
-   var = searchOrigin(findStation);
-   // searchDest();
-   // planJourney();
-   // displayJourney();
-}
-
-var searchOrigin = function(findStation)
-{
-   trainNetwork
-}
-
-var journeyResult = journey('Flinders Street');
+// var journey = function()
+// {
+//    // searchOrigin();
+//    // searchDest();
+//    // planJourney();
+//    // displayJourney();
+// }

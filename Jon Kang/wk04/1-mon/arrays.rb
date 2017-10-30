@@ -14,8 +14,7 @@ puts 'End of program'
 binding.pry
 
 # 2. My calendar says the first day is Sunday...
-# last_day = days_of_the_week.pop
-# days_of_the_week.unshift(last_day)
+# days_of_the_week.unshift(days_of_the_week.pop)
 # puts days_of_the_week
 
 # 3. Create a new array of the adys of the week:

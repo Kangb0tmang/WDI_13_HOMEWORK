@@ -8,9 +8,12 @@
 
    <body>
       <h1>Search for Movies</h1>
+      <a href="/">Home</a>
+      <a href="javascript:history.back()">Back</a>
+
       <form action="/all-movies" method="get">
          <input type="text" name="movie">
-         <button type="button" name="submit">Search</button>
+         <button type="submit">Search</button>
       </form>
 
       <%= yield %>

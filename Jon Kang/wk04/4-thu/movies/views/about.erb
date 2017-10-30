@@ -1,1 +1,7 @@
-<%= "<h1>Title: #{@title}</h1><img src=#{@poster}><h2>Year Released: #{@year}</h2><h3>Actors: #{@actors}</h3><h4>Runtime: #{@runtime}</h4><p>Plot: #{@plot}</p><h3>Awards: #{@awards}</h3>" %>
+<h1><%= @search_movie["Title"] %></h1>
+<img src="<%= @search_movie["Poster"] %>" alt="<%= @search_movie["Title"] %>">
+<h2>Actors: <%= @search_movie["Actors"] %></h2>
+<h3>Duration: <%= @search_movie["Runtime"] %></h4>
+<h3>Release Date: <%= @search_movie["Released"] %></h4>
+<p>Plot: <%= @search_movie["Plot"] %></p>
+<h4>Ratings: <%= "IMDB #{@search_movie["Ratings"][0]["Value"]}" %></h4>

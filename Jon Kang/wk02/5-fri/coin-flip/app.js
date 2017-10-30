@@ -1,12 +1,13 @@
 var chooseSide = document.querySelector('#choose-side');
 var resetGame = document.querySelector("#reset-game");
-var leftCornerScore = document.querySelector('#left-corner');
-var rightCornerScore = document.querySelector('#right-corner');
+var leftSideScore = document.querySelector('#left-corner');
+var rightSideScore = document.querySelector('#right-corner');
 var winner = document.querySelector('#winner');
-var leftCornerCounter = 0;
-var rightCornerCounter = 0;
-var leftCorner = "Coca Cola";
-var rightCorner = "Pepsi";
+var leftSideCounter = 0;
+var rightSideCounter = 0;
+var winningScore = 3;
+var leftSideText = "Grumpy Cat";
+var rightSideText = "Doge";
 
 // Using Numbers 0 and 1
 // Using rivalry between 2 things/people
@@ -15,23 +16,23 @@ var flipGame = function(flip)
 {
    if (flip === 0)
    {
-      leftCornerCounter += 1;
-      leftCornerScore.textContent = leftCornerCounter;
+      leftSideCounter += 1;
+      leftSideScore.textContent = leftSideScore;
    }
-   else
+   else if (flip === 1)
    {
-      rightCornerCounter += 1;
-      rightCornerScore.textContent = rightCornerCounter;
+      rightSideCounter += 1;
+      rightSideScore.textContent = rightSideScore;
    }
 
-   if (leftCornerCounter === 5)
+   if (leftSideCounter === winningScore)
    {
-      winner.textContent = leftCorner;
+      winner.textContent = leftSide;
       chooseSide.disabled = true;
    }
-   else if (rightCornerCounter === 5)
+   else if (rightSideCounter === winningScore)
    {
-      winner.textContent = rightCorner;
+      winner.textContent = rightSide;
       chooseSide.disabled = true;
    }
 }
@@ -44,12 +45,12 @@ var displayResults = function(flipResult)
    if (flipResult === 0)
    {
       resultsList.appendChild(newResultItem);
-      newResultItem.textContent = leftCorner;
+      newResultItem.textContent = leftSideText;
    }
    else
    {
       resultsList.appendChild(newResultItem);
-      newResultItem.textContent = rightCorner;
+      newResultItem.textContent = rightSideText;
    }
 }
 
