@@ -1,0 +1,100 @@
+postcode,suburb,state,dc,type,lat,lon
+200,AUSTRALIAN NATIONAL UNIVERSITY,ACT,AUSTRALIAN NATIONAL UNI LPO,Post Office Boxes                            ,-35.277272,149.117136
+221,BARTON,ACT,NULL,LVR                                          ,-35.201372,149.095065
+800,DARWIN,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.801028,130.955789
+801,DARWIN,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.801028,130.955789
+804,PARAP,NT,PARAP,Post Office Boxes                            ,-12.432181,130.84331
+810,ALAWA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.378451,130.877014
+810,BRINKIN,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.367769,130.869808
+810,CASUARINA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.376597,130.850489
+810,JINGILI,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.385761,130.873726
+810,LEE POINT,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.360865,130.891349
+810,MILLNER,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.39087,130.864144
+810,MOIL,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.387001,130.879351
+810,NAKARA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.369175,130.87899
+810,NIGHTCLIFF,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.382572,130.853877
+810,RAPID CREEK,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.387231,130.864402
+810,TIWI,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.363913,130.87719
+810,WAGAMAN,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.379955,130.886362
+810,WANGURI,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.37041,130.888433
+811,CASUARINA,NT,CASUARINA,Post Office Boxes                            ,-12.376597,130.850489
+812,KARAMA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.400091,130.913672
+812,LEANYER,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.376727,130.900653
+812,MALAK,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.392528,130.904018
+812,MARRARA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.396566,130.882733
+812,WULAGI,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.384714,130.897765
+814,NIGHTCLIFF,NT,NIGHTCLIFF,Post Office Boxes                            ,-12.382572,130.853877
+820,BAGOT,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.410444,130.856124
+820,BAYVIEW,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.440944,130.856539
+820,CHARLES DARWIN,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.443893,130.844191
+820,COONAWARRA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.430427,130.882375
+820,CULLEN BAY,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.454108,130.822898
+820,EAST POINT,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.426947,130.836128
+820,FANNIE BAY,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.423707,130.836623
+820,LARRAKEYAH,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.459211,130.830686
+820,LUDMILLA,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.425888,130.851446
+820,PARAP,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.432181,130.84331
+820,STUART PARK,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.4389,130.843067
+820,THE GARDENS,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.46303,130.841596
+820,THE NARROWS,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.425149,130.859165
+820,WINNELLIE,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.426641,130.882367
+820,WOOLNER,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.43754,130.848872
+821,WINNELLIE,NT,WINNELLIE,Post Office Boxes                            ,-12.426641,130.882367
+822,ACACIA HILLS,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.799278,131.131697
+822,BEES CREEK,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.571462,131.059047
+822,COX PENINSULA,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.715959,130.875404
+822,DALY RIVER,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-13.988234,130.402149
+822,FLEMING,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-14.05834,131.412028
+822,GUNN POINT,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.316964,131.129559
+822,LAMBELLS LAGOON,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.569228,131.237821
+822,LIVINGSTONE,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.730838,131.038993
+822,MANINGRIDA,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.086972,134.271016
+822,MARRAKAI,NT,NULL,Post Office Boxes                            ,-12.361331,130.876795
+822,MCMINNS LAGOON,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.542204,131.079417
+822,MIDDLE POINT,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.646157,131.015033
+822,MILIKAPITI,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.411749,130.948361
+822,NGUIU,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-11.764711,130.314401
+822,OENPELLI,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.414984,132.987357
+822,POINT STEPHENS,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-23.721252,133.884318
+822,PULARUMPI,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.447299,131.004516
+822,SOUTHPORT,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.742355,130.956082
+822,UMBAKUMBA,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-13.848676,136.428043
+822,WADEYE,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-14.17407,130.13833
+822,WAGAIT BEACH,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.433507,130.748017
+822,WEDDELL,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.434023,130.84112
+822,WINNELLIE,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.426641,130.882367
+822,WOOLANING,NT,DARWIN DELIVERY CENTRE,Post Office Boxes                            ,-12.419838,130.949418
+828,BERRIMAH,NT,BERRIMAH,Delivery Area                                ,-12.474896,130.907378
+828,KNUCKEY LAGOON,NT,BERRIMAH,Delivery Area                                ,-12.426825,130.934141
+829,HOLTZE,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-14.460879,132.280002
+830,DRIVER,NT,PALMERSTON DC,Delivery Area                                ,-12.487233,130.972637
+830,DURACK,NT,PALMERSTON DC,Delivery Area                                ,-12.193006,136.763961
+830,FARRAR,NT,PALMERSTON DC,Delivery Area                                ,-12.480219,130.997607
+830,GRAY,NT,PALMERSTON DC,Delivery Area                                ,-12.384847,130.872981
+830,MARLOW LAGOON,NT,PALMERSTON DC,Delivery Area                                ,-12.446554,130.923435
+830,MOULDEN,NT,PALMERSTON DC,Delivery Area                                ,-12.511316,130.974467
+830,PALMERSTON,NT,PALMERSTON DC,Delivery Area                                ,-12.480066,130.984006
+830,SHOAL BAY,NT,PALMERSTON DC,Delivery Area                                ,-12.394902,130.924268
+830,WOODROFFE,NT,PALMERSTON DC,Delivery Area                                ,-12.504958,130.981903
+830,YARRAWONGA,NT,PALMERSTON DC,Delivery Area                                ,-12.471149,130.984917
+831,PALMERSTON,NT,PALMERSTON DC,Post Office Boxes                            ,-12.480066,130.984006
+832,GUNN,NT,PALMERSTON DC,Delivery Area                                ,-12.492269,130.990891
+832,MITCHELL,NT,PALMERSTON DC,Delivery Area                                ,-12.460386,130.837001
+832,ROSEBERY,NT,PALMERSTON DC,Delivery Area                                ,-12.501969,130.988349
+832,ROSEBERY HEIGHTS,NT,PALMERSTON DC,Delivery Area                                ,-12.501969,130.988349
+835,HOWARD SPRINGS,NT,HOWARD SPRINGS LPO,Delivery Area                                ,-12.48138,131.029173
+835,VIRGINIA,NT,HOWARD SPRINGS LPO,Delivery Area                                ,-12.545626,131.029268
+836,GIRRAWEEN,NT,HUMPTY DOO LPO,Delivery Area                                ,-12.525546,131.103025
+836,HERBERT,NT,HUMPTY DOO LPO,Delivery Area                                ,-14.462901,132.280885
+837,MANTON,NT,NOONAMAH CMA,Delivery Area                                ,-12.460094,130.842663
+838,BERRY SPRINGS,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.709507,130.995407
+840,DUNDEE BEACH,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.717562,130.351316
+840,DUNDEE DOWNS,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.771275,130.527516
+840,DUNDEE FOREST,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.749956,130.524993
+841,DARWIN RIVER,NT,DARWIN DELIVERY CENTRE,Delivery Area                                ,-12.801028,130.955789
+845,BATCHELOR,NT,BATCHELOR,Delivery Area                                ,-13.038663,131.072091
+846,ADELAIDE RIVER,NT,ADELAIDE RIVER,Delivery Area                                ,-13.226806,131.098416
+847,PINE CREEK,NT,PINE CREEK,Delivery Area                                ,-13.824123,131.835799
+850,KATHERINE,NT,KATHERINE POST SHOP,Delivery Area                                ,-14.464497,132.262021
+851,KATHERINE,NT,KATHERINE POST SHOP,Post Office Boxes                            ,-14.464497,132.262021
+852,BESWICK,NT,KATHERINE POST SHOP,Delivery Area                                ,-14.92267,133.064654
