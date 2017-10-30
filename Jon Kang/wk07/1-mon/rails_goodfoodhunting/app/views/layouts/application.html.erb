@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsGoodfoodhunting</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <h1>Rails GoodFoodHunting</h1>
+    <a href="/dishes">Home</a>
+    <a href="javascript:history.back()">Back</a>
+    <a href="/dishes/new">New Dish</a>
+    
+    <%= yield %>
+  </body>
+</html>

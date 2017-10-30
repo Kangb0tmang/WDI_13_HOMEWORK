@@ -1,0 +1,13 @@
+<h1>Are you sure you want to delete <%= @dish.name %>?</h1>
+<form action="/dishes/<%= @dish.id %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="delete">
+  <label for="name">Name</label>
+  <input type="text" name="name" value="<%= @dish.name %>">
+  <label for="img_url">Image URL</label>
+  <textarea name="img_url"><%= @dish.img_url %></textarea>
+  <img src="<%= @dish.img_url %>" alt="<%= @dish.name %>">
+  <label for="description">Description</label>
+  <textarea name="description"><%= @dish.description %></textarea>
+  <button type="submit">Delete</button>
+</form>

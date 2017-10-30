@@ -1,0 +1,17 @@
+<h1><%= @dish.name %></h1>
+<img src="<%= @dish.img_url %>" alt="<%= @dish.name %>">
+<p><%= @dish.description %></p>
+<a href="/dishes/<%= @dish.id %>/edit">Edit</a>
+<a href="/dishes/<%= @dish.id %>/confirm_delete">Delete</a>
+
+<%= form_tag '/comments', method: 'post' do %>
+  <input type="hidden" name="dish_id" value="<%= @dish.id %>">
+  <label for="comment">Comment</label>
+  <textarea name="name"></textarea>
+  <button type="submit">Post Comment</button>
+<% end %>
+
+<h3>Comments</h3>
+<% @comments.each do |comment| %>
+  <p><%= comment.name %></p>
+<% end %>
