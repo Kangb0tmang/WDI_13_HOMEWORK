@@ -9,14 +9,14 @@ var convertCsv = function(csv)
   var result = [];
   var headers = lines[0].split(",");
 
-  for(var i = 1; i < lines.length; i++)
+  for(var column = 1; column < lines.length; column++)
   {
 	  var obj = {};
-	  var currentline = lines[i].split(",");
+	  var currentLine = lines[column].split(",");
 
-	  for(var j = 0; j < headers.length; j++)
+	  for(var row = 0; row < headers.length; row++)
     {
-		  obj[headers[j]] = currentline[j];
+		  obj[headers[row]] = currentLine[row];
 	  }
 	  result.push(obj);
   }
